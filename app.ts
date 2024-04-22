@@ -23,7 +23,7 @@ app.use(cookieParser());
 // //cors
 app.use(
   Cors({
-    origin: ["http://localhost:3000"],
+    origin: ["hitech-arge.netlify.app"],
     credentials: true,
   })
 );

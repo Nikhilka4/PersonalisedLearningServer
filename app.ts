@@ -23,7 +23,7 @@ app.use(cookieParser());
 // //cors
 app.use(
   Cors({
-    origin: ["hitech-arge.netlify.app"],
+    origin: ["https://hitech-arge.netlify.app"],
     credentials: true,
   })
 );
